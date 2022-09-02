@@ -1,55 +1,51 @@
 h1{
     color: rgb(133,88,92);
-    background-color: rgb(243, 235, 235);
+    background-color: rgb(204, 159, 159);
     text-align: center;
     padding:50px;
     margin: auto;
-    font-weight: 78px;
+    font-weight: 80pt;
     font-family: sans-serif;
-  
-    
 }
 
-body{
+.body{
     margin:100px;
-    background-color:rgb(171,171,171);
+    background-color:rgb(199, 185, 185);
     text-align: center;
-    color:rgb(167, 62, 120);
+    color:rgb(177, 102, 143);
     size: 18px;
-    
-
 }
 
-
-div{
-    background-color:rgb(229,229,228);
+.div{
+    font-size: medium;
+    background-color: rgb(167, 167, 184);
 }
 
 form {
-    margin-left:35%;
-    margin-right:35%;
-  }
+    margin-left:160px;
+    margin-right:150px;
+    background-color: rgb(181, 187, 181);
+}
 
-textarea {
+.textarea {
     resize: none;
     border:transparent;
-    text-align: left;
+    text-align:center;
     block-size: auto;
     resize: both;
     overflow: auto;
-  }
-  
-  
+}
+
 .item {
     width:150px;
     height:50px;
     margin:5px;
-    
 }
 
 .flex {
   display: flex;
 }
+
 .flex-space-evenly {
   justify-content: space-evenly;
 }
